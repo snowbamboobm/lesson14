@@ -1,0 +1,10 @@
+name: GitHub-Actions-test
+on: [push]
+jobs: 
+check-bats-version:
+  runs-on: ubuntu-latest
+  step:
+    -run: echo"first Actions Traial"
+    -run: chmod + x hello.sh
+    -run: hello.sh
+
